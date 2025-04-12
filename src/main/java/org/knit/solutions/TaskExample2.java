@@ -3,12 +3,7 @@ package org.knit.solutions;
 import lombok.extern.slf4j.Slf4j;
 import org.knit.TaskDescription;
 
-import java.io.Console;
-import java.util.Arrays;
 
-@Slf4j
-@TaskDescription(taskNumber = 2, taskDescription = "Краткое описание задачи 2")
-public class TaskExample2 implements Solution {
 
     public void execute() {
         System.out.println("Задача 2 запущена");
